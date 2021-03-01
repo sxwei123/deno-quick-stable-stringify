@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        deno: ["v1.0.0", "v1.x", "nightly"]
+        deno: ["v1.7.x", "nightly"]
     name: Test with Deno ${{ matrix.deno }}
 
     steps:
