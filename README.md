@@ -13,7 +13,7 @@ Deterministic `JSON.stringify()` for Deno 🦕
 ## Examples
 
 ```ts
-import { jsonStringify } from "https://raw.githubusercontent.com/sxwei123/deno-quick-stable-stringify/master/jsonStringify.ts";
+import { jsonStringify } from "https://deno.land/x/stable_stringify@v0.2.1/jsonStringify.ts";
 
 const obj = { c: 8, b: [{ z: 6, y: 5, x: 4 }, 7], a: 3 };
 console.log(jsonStringify(obj));
@@ -43,7 +43,7 @@ type ComparatorFunction = (a: KeyValue, b: KeyValue) => number;
 For example, to sort by the object keys in reverse order:
 
 ```ts
-import { jsonStringify } from "https://raw.githubusercontent.com/sxwei123/deno-quick-stable-stringify/master/jsonStringify.ts";
+import { jsonStringify } from "https://deno.land/x/stable_stringify@v0.2.1/jsonStringify.ts";
 
 const obj = { c: 8, b: [{ z: 6, y: 5, x: 4 }, 7], a: 3 };
 const s = jsonStringify(obj, function (a, b) {
@@ -61,7 +61,7 @@ which results in the output string:
 To sort by the object values in reverse order:
 
 ```ts
-import { jsonStringify } from "https://raw.githubusercontent.com/sxwei123/deno-quick-stable-stringify/master/jsonStringify.ts";
+import { jsonStringify } from "https://deno.land/x/stable_stringify@v0.2.1/jsonStringify.ts";
 
 const obj = { d: 6, c: 5, b: [{ z: 3, y: 2, x: 1 }, 9], a: 10 };
 const s = jsonStringify(obj, function (a, b) {
