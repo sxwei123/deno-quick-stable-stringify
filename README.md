@@ -1,4 +1,4 @@
-# quick-stable-stringify
+# deno-quick-stable-stringify
 
 ![Test status](https://github.com/sxwei123/deno-quick-stable-stringify/workflows/Test/badge.svg?branch=master)
 
